@@ -7,3 +7,6 @@
 [submodule "node_modules/crafity-logging"]
 	path = node_modules/crafity-logging
 	url = https://github.com/Crafity/crafity-logging.git
+[submodule "node_modules/crafity-webserver"]
+	path = node_modules/crafity-webserver
+	url = https://github.com/Crafity/crafity-webserver.git
