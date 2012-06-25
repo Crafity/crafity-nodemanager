@@ -1,0 +1,19 @@
+{
+	"name": "crafity-node-manager",
+	"description": "Manage node instance on 1 or more servers",
+	"version": "0.1.0",
+	"author": "Bart Riemens <briemens@crafity.com>",
+	"keywords": ["crafity", "process", "node", "manager", "instance", "control", "remote", "distributed"],
+	"repository": "git://github.com/crafity/crafity-modules",
+	"main": "./node-manager.js",
+	"engines": {
+		"node": "> 0.4.x < 0.7.0"
+	},
+	"scripts" : {
+		"prepublish" : "npm prune"
+	},
+	"dependencies": {
+		"crafity-process": "0.1.0",
+		"crafity-webserver": "0.1.0"
+	}
+}
