@@ -48,11 +48,11 @@
     }
   ],
   "dependencies": {
-    "crafity-core": "*",
-    "crafity-logging": "*",
-    "crafity-process": "*",
+    "crafity-core": "~0.1.0",
+    "crafity-logging": "~0.1.0",
+    "crafity-process": "~0.1.0",
     "crafity-webserver": "*",
-    "crafity-jstest": "*"
+    "crafity-jstest": "~0.1.0"
   },
   "engines": {
     "node": "*"
