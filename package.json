@@ -41,12 +41,10 @@
     }
   ],
   "bugs": "https://github.com/Crafity/crafity-nodemanager/issues",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Crafity/crafity-nodemanager.git"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crafity/crafity-nodemanager.git"
+  },
   "dependencies": {
     "crafity-core": "~0.1.0",
     "crafity-logging": "~0.1.0",
