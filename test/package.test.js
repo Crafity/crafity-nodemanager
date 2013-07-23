@@ -1,50 +1,50 @@
-/*jslint node: true, bitwise: true, unparam: true, maxerr: 50, white: true, stupid: true */
-"use strict";
-
+/*jslint node:true, white:true */
 /*!
- * crafity-nodemanger - Crafity nodemanger module tests
- * Copyright(c) 2013 Crafity
- * Copyright(c) 2013 Bart Riemens
- * Copyright(c) 2013 Galina Slavova
+ * package.test - package.json tests
+ * Copyright(c) 2011 Crafity
+ * Copyright(c) 2012 Galina Slavova
+ * Copyright(c) 2012 Bart Riemens
  * MIT Licensed
  */
 
 /**
  * Test dependencies.
  */
-  
 var jstest = require('crafity-jstest')
 	, assert = jstest.assert
-	, context = jstest.createContext()
+	, context = jstest.createContext("Module Package tests")
 	, fs = require('fs')
 	, main
 	;
 
 (function packageTests() {
+	"use strict";
+
 	/**
 	 * The tests
 	 */
 	var tests = {
 
-		'package---> The module must have main.js file': function () {
-			
+		'The module must have main.js file': function () {
+
 			main = require('../main');
 			assert.isDefined(main, "Expected main to be defined");
+			assert.areEqual(main, main.__proto__, "Expected main to be the standard module");
 		},
 
-		'package---> The module must have a fullname': function () {
+		'The module must have a fullname': function () {
 			assert.isDefined(main.fullname, "Expected fullname to be defined");
 		},
 
-		'package---> The module must have a version number': function () {
+		'The module must have a version number': function () {
 			assert.isDefined(main.version, "Expected version number to be defined");
 		},
 
-		'package---> The module must have package.json file': function (context) {
+		'The module must have package.json file': function (context) {
 			fs.readFileSync("./package.json");
 		},
 
-		'package---> The module must have the same name as quoted in package.json': function () {
+		'The module must have the same name as quoted in package.json': function () {
 
 			var data = fs.readFileSync("./package.json")
 				, json = JSON.parse(data.toString());
@@ -53,7 +53,7 @@ var jstest = require('crafity-jstest')
 
 		},
 
-		'package---> The module must have the same version as quoted in package.json': function () {
+		'The module must have the same version as quoted in package.json': function () {
 
 			var data = fs.readFileSync("./package.json")
 				, json = JSON.parse(data.toString());
