@@ -59,7 +59,7 @@
   },
   "scripts": {
     "prepublish": "npm prune",
-    "test": "./runtests"
+    "test": "scripts/npm-test.sh"
   }
 }
 
