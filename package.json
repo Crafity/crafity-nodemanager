@@ -1,66 +1,66 @@
 {
-	"name": "crafity-nodemanager",
-	"description": "Manage multiple node instances",
-	"version": "0.0.1",
-	"author": "Bart Riemens <briemens@crafity.com>",
-	"homepage": "https://github.com/Crafity/crafity-nodemanager#readme",
-	"keywords": ["crafity", "process", "node", "manager", "instance", "control", "remote", "distributed"],
-	"maintainers": [
-	{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		},
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		}
-	],
-	"contributors": [
-		{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		},
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		}
-	],
-	"main": "./main.js",
-	"directories": {
-		"lib": "lib",
-		"test": "test"
-	},
-	"licenses": [
-		{
-			"type": "The MIT License",
-			"url": "https://github.com/Crafity/crafity-nodemanager/blob/master/LICENSE"
-		}
-	],
-	"bugs": "https://github.com/Crafity/crafity-nodemanager/issues",
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/Crafity/crafity-nodemanager.git"
-		}
-	],
-	"dependencies": {
-		"crafity-core": "*",
-		"crafity-logging": "*",
-		"crafity-process": "*",
-		"crafity-webserver": "*",
-		"crafity-jstest": "*"
-	},
-	"engines": {
-		"node": "*"
-	},
-	"scripts": {
-		"prepublish": "npm prune",
-		"test": "./runtests"
-	}
+  "name": "crafity-nodemanager",
+  "description": "Manage multiple node instances",
+  "version": "0.0.1",
+  "author": "Bart Riemens <briemens@crafity.com>",
+  "homepage": "https://github.com/Crafity/crafity-nodemanager#readme",
+  "keywords": ["crafity", "process", "node", "manager", "instance", "control", "remote", "distributed"],
+  "maintainers": [
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    },
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    },
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    }
+  ],
+  "main": "./main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "https://github.com/Crafity/crafity-nodemanager/blob/master/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/Crafity/crafity-nodemanager/issues",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Crafity/crafity-nodemanager.git"
+    }
+  ],
+  "dependencies": {
+    "crafity-core": "*",
+    "crafity-logging": "*",
+    "crafity-process": "*",
+    "crafity-webserver": "*",
+    "crafity-jstest": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "./runtests"
+  }
 }
 
 
