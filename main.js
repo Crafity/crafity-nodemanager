@@ -22,7 +22,7 @@ exports.fullname = 'crafity-nodemanager';
 /**
  * Framework version.
  */
-exports.version = '0.0.1';
+exports.version = '0.1.0';
 
 exports.createServer = function (config) {
 	return new Server(config);

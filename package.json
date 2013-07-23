@@ -1,8 +1,8 @@
 {
   "name": "crafity-nodemanager",
   "description": "Manage multiple node instances",
-  "version": "0.0.1",
   "author": "Bart Riemens <briemens@crafity.com>",
+  "version": "0.1.0",
   "homepage": "https://github.com/Crafity/crafity-nodemanager#readme",
   "keywords": ["crafity", "process", "node", "manager", "instance", "control", "remote", "distributed"],
   "maintainers": [
