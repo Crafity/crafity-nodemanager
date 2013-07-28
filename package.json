@@ -49,7 +49,6 @@
     "crafity-core": "~0.1.0",
     "crafity-logging": "~0.1.0",
     "crafity-process": "~0.1.0",
-    "crafity-webserver": "~0.1.0",
     "crafity-jstest": "~0.1.0",
     "crafity-http": "~0.1.0"
   },
